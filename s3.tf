@@ -24,3 +24,12 @@ resource "aws_s3_object" "dna_evaluator_source" {
 
   etag = filemd5("files/dna-evaluator-lambda.zip")
 }
+
+resource "aws_s3_object" "dna_stats_source" {
+  bucket = aws_s3_bucket.dna_bucket_sources.id
+
+  key    = "dna-stats-lambda.zip"
+  source = "files/dna-stats-lambda.zip"
+
+  etag = filemd5("files/dna-stats-lambda.zip")
+}
