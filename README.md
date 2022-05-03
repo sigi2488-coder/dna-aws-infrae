@@ -1,6 +1,7 @@
 # dna-aws-infrae
 
-Es proyecto desarrollado en Terraform representa la infraestructura de la solución (IaC), la cual se desarrolla para AWS e implementa los siguientes componentes.
+Proyecto Terraform para infracestructura del challenge técnico implementado en la nube de AWS.
+**Componentes**
 
 ![image](https://user-images.githubusercontent.com/5661155/166401868-5c34589c-f50f-4d4a-8702-14e7ba396cd3.png)
 
